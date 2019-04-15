@@ -24,3 +24,9 @@ To get dev results:
 To view per verb summaries of current performance, browse html files in results/results_5/ (top-5) or results/results_25/ (top-25)
 
 Note: I've merged this caffe fork with the version of caffe as of 9/18/16. It has weak cudnn v5 support (~1.8 speed up), and I will merge again when full support is added.
+
+Notes:
+ Use Ubuntu 14
+ Use Anaconda with python 2.7
+ Remove uuid and tiff libraries from Anaconda while building
+ Contact pkubal@buffalo.edu for AWS AMI for the Successful Caffe Build
